@@ -1,0 +1,19 @@
+{
+  "name": "pluribum",
+  "version": "0.0.1",
+  "description": "Framework to write distributed apps, i.e., multiple services and their orchestration, within a single TypeScript repository",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "repository": "git@github.com:martinbeck/pluribum.git",
+  "author": "Martin Beck",
+  "license": "MIT",
+  "scripts": {
+    "lint": "tslint --project .",
+    "build": "tsc"
+  },
+  "dependencies": {},
+  "devDependencies": {
+    "tslint": "^5.10.0",
+    "typescript": "^2.8.3"
+  }
+}
